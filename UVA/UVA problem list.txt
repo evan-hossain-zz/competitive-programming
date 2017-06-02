@@ -1,0 +1,265 @@
+
+Sazedul Islam Sazid-
+
+aikhane kisu problem akdom easy. sobaike diba korte... karo kono problem hoile jogajog korba.
+
+
+100 - The 3n + 1 problem
+102 - Ecological Bin Packing
+113 - Power of Cryptography
+119 - Greedy Gift Givers
+136 - Ugly Numbers
+160 - Factors and Factorials
+256 - Quirksome Squares
+272 - TEX Quotes
+278 - Chess
+299 - Train Swapping
+371 - Ackermann Functions
+374 - Big Mod
+382 - Perfection
+401 - Palindromes
+412 - Pi
+424 - Integer Inquiry
+443 - Humble Numbers
+444 - Encoder and Decoder
+458 - The Decoder
+483 - Word Scramble
+488 - Triangle Wave
+492 - Pig-Latin
+494 - Kindergarten Counting Game
+495 - Fibonacci Freeze
+530 - Binomial Showdown
+583 - Prime Factors
+579 - ClockHands
+694 - The Collatz Sequence
+913 - Joana and the Odd Numbers
+10038 - Jolly Jumpers
+10018 - Reverse and Add
+10035 - Primary Arithmetic
+10055 - Hashmot A Brave Warrior
+10071 - Back To High School Physics
+10079 - Pizza Cutting
+10082 - WERTYU
+10106 - Product
+10110 - Light, more light
+10161 - Ant on a Chessboard
+10222 - Decode the Mad man
+10235 - Simply Emirp
+10242 - Fourth Point
+10300 - Ecological Premium
+10302 - Summation of Polynomials
+10323 - Factorial! You Must be Kidding!!!
+10327 - Flip Sort
+10340 - All in All
+10346 - Peter's Smokes
+10370 - Above Average
+10424 - Love Calculator
+10432 - Polygon Inside A Circle
+10469 - To Carry or not to Carry
+10696 - f91
+10783 - Odd Sum
+10812 - Beat the Spread
+10924 - Prime words
+10922 - 2 the 9s
+10929 - You can say 11
+10931 - Parity
+10945 - Mother bear
+10970 - Big Chocolate
+11044 - Searching for Nessy
+11068 - An Easy Task
+11150 - Cola
+11172 - Relational Operator
+11185 - Ternary
+11192 - Group Reverse
+11219 - How old are you?
+11332 - Summing Digits
+11479 - Is this the easiest problem
+11547 - Automatic Answer
+11636 - Hello World!
+11689 - Soda Surpler
+11727 - Cost Cutting
+11799 - Horror Dash
+11909 - Soya Milk
+
+
+
+
+
+
+
+
+
+
+272   TEX Quotes   0.5   Ad Hoc
+458   The Decoder   0.5   Ad Hoc
+10071   Back to High School Physics   0.5   Math (Physics)
+10300   Ecological Premium   0.5   Ad Hoc
+10302   Summation of Polynomials   0.5   Math
+2362   Financial Management   0.5   Ad Hoc
+3077   No Brainer   0.5   Ad Hoc, bonus question
+299   Train Swapping   1   Sorting
+10023   Square root   1   Ad Hoc
+10696   f91   1   Ad Hoc
+10783   Odd Sum   1   Math
+3055   Speed Limit   1   Ad Hoc
+11547   Automatic Answer   1   Ad Hoc, Math
+11577   Letter Frequency   1   Ad Hoc
+11172   Relational Operator   1   Ad Hoc
+11044   Searching for Nessy   1   Math
+146   ID Codes   1.5   Ad Hoc
+499   What's The Frequency, Kenneth?   1.5   Ad Hoc
+541   Error Correction   1.5   Ad Hoc
+591   Box of Bricks   1.5   Ad Hoc
+10286   Trouble with a Pentagon   1.5   Math (Trigonometry)
+10327   Flip Sort   1.5   Sorting (Bubble Sort)
+10370   Above Average   1.5   Math
+10656   Maximum Sum (II)   1.5   Ad Hoc
+11496   Musical Loop   1.5   Ad Hoc, Array Processing
+11498   Division of Nlogonia   1.5   Ad Hoc
+11192   Group Reverse   1.5   String Processing
+113   Power of Cryptography   2   Math
+445   Marvelous Mazes   2   Ad Hoc
+484   The Department of Redundancy Department   2   Ad Hoc, use BST
+488   Triangle Wave   2   Ad Hoc
+494   Kindergarten Counting Game   2   Ad Hoc
+10008   What's Cryptanalysis?    2   Ad Hoc
+10469   To Carry or not to Carry   2   Math
+10784   Diagonal   2   Math
+10916   Factstone Benchmark   2   Ad Hoc, Mathematics
+2052   Number Steps   2   Ad Hoc
+2731   Wacmian Numbers   2   Math (Base Number)
+3003   Jelly   2   Ad Hoc
+3055   Symmetric Order   2   Ad Hoc
+11541   Decoding   2   String Processing
+11461   Square Numbers   2   Ad Hoc, Math
+11185   Ternary   2   Math
+100   The 3n + 1 Problem   2.5   Ad Hoc
+102   Ecological Bin Packing   2.5   Ad Hoc, Complete Search
+256   Quirksome Squares   2.5   Math
+382   Perfection   2.5   Math
+10018   Reverse and Add   2.5   Math
+10035   Primary Arithmetic   2.5   Math
+10038   Jolly Jumpers   2.5   Ad Hoc
+10062   Tell me the frequencies!   2.5   Ad Hoc
+10077   The Stern-Brocot Number System   2.5   Binary Search
+10223   How many nodes ?   2.5   Math
+10297   Beavergnaw   2.5   Math
+10346   Peter's Smoke   2.5   Math
+10361   Automatic Poetry   2.5   String Processing
+10420   List of Conquests   2.5   Ad Hoc
+10420   List of Conquests   2.5   Ad Hoc
+10432   Polygon Inside A Circle   2.5   Math (Geometry)
+10499   The Land of Justice   2.5   Math
+10703   Free spots   2.5   Ad Hoc
+10812   Beat the Spread!   2.5   Math
+10924   Prime Words   2.5   Math, Prime Numbers
+2247   Prime Digital Root   2.5   Ad Hoc
+3056   Flow Layout   2.5   Ad Hoc
+11530   SMS Typing   2.5   String Processing
+10055   Hashmat the Brave Warrior   3   Math
+
+
+
+
+Sl.   Prob ID   Title   Diff
+1   100   The 3n + 1 problem   1
+2   236   VTAS - Vessel Traffic Advisory Service   1
+3   863   Process Scheduling   1
+4   896   Board Game   1
+5   10781   Global Positioning System   1
+6   10845   The crusades   1
+7   11263   Nested Rectangles   1
+8   961   Ambiguous or Incomp Inductive Def   2
+9   10059   The Hazard of CSE Department!   2
+10   10757   Interpreting SQL   2
+11   10966   3KP-BASH Project   2
+12   10071   Back to High School Physics   3
+13   10055   Hashmat the Brave Warrior   3
+14   272   TEX Quotes   3
+15   10971   Building Construction   3
+16   11213   Flipull   3
+17   11248   Frequency Hopping   3
+18   458   The Decoder   4
+19   136   Ugly Numbers   4
+20   10038   Jolly Jumpers   4
+21   10035   Primary Arithmetic   4
+22   10018   Reverse and Add   4
+23   108   Maximum Sum   4
+24   693   Digital Racing Circuit   4
+25   977   Old West Rumours   4
+26   10657   Prince Frog II   4
+27   10974   The Ridiculous Game   4
+28   11211   Digital Logic   4
+29   113   Power of Cryptography   5
+30   494   Kindergarten Counting Game   5
+31   299   Train Swapping   5
+32   10082   WERTYU   5
+33   101   The Blocks Problem   5
+34   591   Box of Bricks   5
+35   10008   What's Cryptanalysis?   5
+36   10300   Ecological Premium   5
+37   219   Department of Redundancy Department   5
+38   951   The Pieces of the Puzzle   5
+39   10630   Millennium Ceremony   5
+40   11143   Subtitles   5
+41   575   Skew Binary   6
+42   369   Combinations   6
+43   151   Power Crisis   6
+44   382   Perfection   6
+45   10370   Above Average   6
+46   160   Factors and Factorials   6
+47   10189   Minesweeper   6
+48   579   ClockHands   6
+49   264   Count on Cantor   6
+50   424   Integer Inquiry   6
+51   499   What's The Frequency, Kenneth?   6
+52   10110   Light, More Light   6
+53   541   Error Correction   6
+54   10840   Multi-stage Compressor   6
+55   11145   AvreniM   6
+56   11154   An Octal World   6
+57   11199   Equations in Disguise   6
+58   543   Goldbach's Conjecture   7
+59   10004   Bicoloring   7
+60   10107   What is the Median?   7
+61   374   Big Mod   7
+62   686   Goldbach's Conjecture (II)   7
+63   105   The Skyline Problem   7
+64   495   Fibonacci Freeze   7
+65   483   Word Scramble   7
+66   10041   Vito's Family   7
+67   10019   Funny Encryption Method   7
+68   256   Quirksome Squares   7
+69   138   Street Numbers   7
+70   10079   Pizza Cutting   7
+71   530   Binomial Showdown   7
+72   10696   f91   7
+73   111   History Grading   7
+74   894   Juggling Trams   7
+75   964   Custom Language   7
+76   973   The Guessing Game   7
+77   10778   Mathemagicland   7
+78   10340   All in All   8
+79   10783   Odd Sum   8
+80   476   Points in Figures: Rectangles   8
+81   344   Roman Digititis   8
+82   673   Parentheses Balance   8
+83   10346   Peter's Smoke   8
+84   120   Stacks of Flapjacks   8
+85   10469   To Carry or not to Carry   8
+86   10127   Ones   8
+87   492   Pig-Latin   8
+88   438   The Circumference of the Circle   8
+89   10327   Flip Sort   8
+90   401   Palindromes   8
+91   10050   Hartals   8
+92   103   Stacking Boxes   8
+93   324   Factorial Frequencies   8
+94   146   ID Codes   8
+95   463   Polynomial Factorization   8
+96   917   Euro 2004   8
+97   919   Cutting Polyominoes   8
+98   958   A Homer's Holiday   8
+99   984   Finding Haplotypes   8
+100   10383   Queen vs Rook   8
+101   10955   Playfair Cipher   8

@@ -1,0 +1,873 @@
+Combinatorial Inclusion - Exclusion
+	http://blog.csdn.net/woshi250hua/article/details/8037106
+
+DP State Compression
+	HDU 4026---->
+	hdu 3920
+	hdu 3681
+	poj 2411
+	zoj 3001
+	zoj 3471
+	poj 2288
+	poj 3311
+	poj 3254
+	Poj 3254 Corn Fields (DP_ state compression DP)
+	zoj 3471 Most Powerful / / state compression DP
+	POJ 3311 Hie with the Pie / / state compression DP
+	hdu 3602 2012
+	hdu 3516
+	hdu 3480
+	hdu 2829
+	hdu 3433 A Task Process
+	HDU 4281 judges' response (12 Tianjin MTSP)
+	HDU 4295 4 substrings problem (state compression)
+	HDU 4271 Find Black Hand
+	poj 1699 TSP(DP) + KMP
+	hdu 4336 dp and expectations (state compression)
+	HDU 4293 Groups (dp)
+	HDU 4283 (DP)
+	HDU 4284 Travel (state dp)
+	POJ 3661 Running (DP thought)
+	
+DP Interval
+	http://blog.csdn.net/woshi250hua/article/details/7969225
+	Hdu 4283 You Are the One (DP_ interval DP)
+	HDU 4293 Groups (interval DP)
+
+	
+DP 01 BackPack
+	Hdu 4281 Judges' response (DP_ backpack | TSP)
+	Zoj 3524 Crazy Shopping (DP_ completely backpack)
+	Poj 1787 Charlie's Change (DP_ backpack)
+	Poj 2184 Cow Exhibition (DP_ backpack)
+	Poj 3260 The Fewest Coins (DP_ backpack)
+	Poj 2392 Space Elevator (DP_ backpack)
+	Poj 3211 Washing Clothes (DP_ backpack)
+	Poj 3624 Charm Bracelet (DP_ backpack)
+	Poj 1276 Cash Machine (DP_ backpack)
+	Poj 1837 Balance (DP_ backpack)
+	Poj 2063 Investment (DP_ backpack)
+	Hdu 3496 Watch The Movie (DP_ backpack)
+	Hdu 2639 Bone Collector II (DP_ backpack)
+	Hdu 3810 Magina (DP_ backpack)
+	Hdu 3535 AreYouBusy (DP_ backpack)
+	Hdu 3033 I love sneakers! (DP_ backpack)
+	Hdu 1712 ACboy needs your help (DP_ backpack)
+	Hdu 2546 Fanka (DP_, backpack)
+	POJ 3260 The Fewest Coins multiple backpack + full backpack
+	POJ 2923 Relocation state DP +01 backpack
+	hdu 4341
+	
+
+Simulation
+	hdu 3925 Substring
+	HDU 4431
+	HDU 4269
+	hdu 3344
+	hdu 4452
+	HDU 4342 History repeat itself
+	hdu 4041 Eliminate Witches
+	HDU 4431 Mahjong
+	HDU 4286 Data Handler
+	HDU 3932 Groundhog Build Hom
+	hdu 3644 A Chocolate Manufacturer's Problem
+	hdu 4255 A Famous Grid
+	HDU 4119 Isabella's Message
+	Hdu 3812 Sea Sky
+	Zoj 3314 CAPTCHA
+	Hdu 4090 GemAnd Prince
+	zoj 3462 Nobita's New Filesystem
+	hdu 4382
+	HDU 4350 Card
+	HDU 4121
+	POJ 1573 && hdu 1035 Robot Motion
+	POJ 1379 HDU 1109 HDU3932
+	hdu 3233 Download Manager
+	HDU 4269 Defend Jian Ge
+	HDU 3013 Tetris
+	poj 3325
+	hdu 4213 Sokoban
+	HDU 3269 P2P File Sharing System 
+	hdu 4194
+	
+Monotonous Queue | Stack | slope optimization
+	poj 1156
+	HDU 3474
+	HDU 3415
+	poj 2823
+	POJ 1180 IOI 2002 Batch Task Manager
+	FZU 1894
+	poj 1180
+	poj 3709
+	ZOJ-3399 Classes Division
+	POJ 2823
+	HDU 3415
+	hdu 3401 Trade / / is monotonous queue + DP
+	HDU 3530
+	POJ 3017
+	POJ 3245
+	HDU 2993
+	Hdu of 3480 Division (DP_ slope optimization)
+	HDU 2829 Lawrence (DP_ quadrilateral optimization | slope optimization)
+	Hdu 3507 Print Article (DP_ slope optimization)
+	HDU 2923 MAX Average Problem (DP_ slope optimization)
+	Zoj 3537 Cake (DP_ Optimized Triangulation)
+	Hdu 4193 Non-negative Partial Sums (the data structure _ monotonous queue)
+	HDU 2430 Beans (data structure _ monotonous queue)
+	POJ 3250 Bad Hair Day (data structure _ stack)
+	poj 2373 Dividing the Path (DP_ monotonous queue optimization)
+	poj 1160 Post Office / / quadrilateral inequality optimization
+	HDU 4261 Estimation (DP + priority queue optimization)
+	POJ 3415 Common substrings (suffix array + monotonous stack)
+	poj 1180 Batch Scheduling
+	hdu 3045 Picnic Cows
+	hdu 4374 monotonous queue optimization DP
+	SDUT 2412 ( dp)http://acm.sdut.edu.cn/sdutoj/problem.php?action=showproblem&problemid=2412
+	POJ 1180
+	POJ 3709
+	quadrilateral and Inequality and dp (POJ1160)
+	UVa 12594 - Naming Babies
+	 
+Steiner Tree
+	Hdu 3311 Dig The Wells (integrated _ Steiner tree)
+	Zoj 3613 Wormhole Transport
+	Hdu 4085 Peach Blossom Spring (the comprehensive _ Steiner tree) 
+	http://blog.csdn.net/woshi250hua/article/category/1123276
+	http://blog.csdn.net/woshi250hua/article/details/7943255
+	http://blog.csdn.net/woshi250hua/article/details/7955170
+	http://www.cppblog.com/Yuan/archive/2010/10/20/130558.html
+	
+Plug DP
+	HDU 4285
+	ural 1519 
+	zoj 3213 Beautiful Meadow
+	uva 10572 black&white
+	hdu 3633 Black and white
+	World Finals - Harbin - 2009/2010 Channel
+	poj 3133
+	hdu 3377 Plan
+	zoj 3256 Tour in the Castle
+	poj 1739 Tony's Tour
+	zoj 3466 The Hive II
+	hdu 1693
+	HDU 3958
+	Topcoder srm312 Div1 CheapestIsland
+	spoj cake3 Delicious Cake 
+	zju 2125 Rocket Mania 
+	zju 2126 Rocket Mania Plus
+	uva 10531 Maze Statistics 
+	hdu 3377 Plan
+	hdu 4064
+	hdu 1964
+	SGU 223 Little Kings
+
+Tree DP
+	HDU 4118 Holiday's Accommodation(??DP)
+	HDU 4276 The Ghost Blows Light 37th ACM / ICPC 1010 in Changchun Division title (tree-DP)
+	HDU 3586 Information Disturbing (? ? ?? + ?? DP) not dp, it's a binary search and dfs problem
+	POJ 3162 Walking, Race (DP_ tree DP (segment tree))
+	Poj 2152 Fire (DP_ tree DP) + ektu onno rokom tree dp , moja ase ...... 
+	Poj 1741 Tree (DP_ tree DP (divide and conquer))
+	Hdu 4044 GeoDefense (DP_ tree DP)
+	Poj 3140 Contestants Division (DP_ tree DP)
+	Poj 1655 Balancing Act (DP_ tree DP)
+	Poj 2378 Tree Cutting (DP_ tree DP)
+	Poj 3107 Godfather (DP_ tree DP)
+	Poj 3345 Bribing FIPA (DP_ tree DP (backpack))
+	Hdu 4003 Find Metal Mineral (DP_ tree DP (backpack))
+	Poj 2486 Apple Tree (DP_ tree DP (backpack))
+	Hdu 2242 PubMed bleak future - air conditioning the classroom (DP_ tree DP (Tarjan))
+	Hdu 1011 Starship Troopers (DP_ tree DP (backpack))
+	Hdu 2196 Computer (DP_ tree DP)
+	Hdu 1520 Anniversary party (DP_ tree DP)
+	Hdu 3586 Information Disturbing (DP_ tree DP)
+	Hdu 1561 The more, The Better (DP_ tree DP (backpack))
+	Poj 1155 TELE (DP_ tree DP (backpack))
+	Poj 1947 Rebuilding Roads (DP_ tree DP (backpack))
+	hdu 4003 Find Metal Mineral
+	ZJU 3201 Tree of Tree Tree DP
+	HDU 4274 Spy's Work (12 Changchun tree DP)
+	zoj  3231
+	hdu 4359
+	codeforces 9D 
+	hdu 4340
+	zoj 2834 tree DP the very interesting
+	POJ 1848 (a good tree dp)
+	Done Codechef HLDOTS
+	
+Digit DP
+	Done http://blog.csdn.net/acm_ted/article/details/7895948
+	Done http://blog.csdn.net/acm_ted/article/details/7895979
+	Done http://acm.hdu.edu.cn/showproblem.php?pid=4389
+	Done hdu 3709
+	Done SPOJ 10649 Mirror Number
+	Done hdu 3271 
+	Done hdu 4376
+	Done SPOJ 1128
+	Done light OJ 1068 
+	Done light OJ 1205
+	Done HDU 3886
+	Done hdu 4352
+	Done URAL 1057
+	UESTC 1307
+	Done POJ 3252 
+	Done hdu 3555
+	Done HDU 2089
+	CodeForces 215E
+	CodeForces 55D
+	HDU 3652
+	Codeforces 258B
+	hdu 3565 
+	hdu-4398
+	SPOJ-1182 Sorted bit squence
+	Codeforces 259 D 
+	hdu 4507 
+	ural1057 Amount of degrees
+	spoj1182 Sorted bit squence
+	hdu3271 SNIBB
+	spoj2319 Sequence
+	sgu390 Tickets
+	fzu 2042 
+	hdu 3943 K-th Nya Number
+	URAL 1057 Amount of Degrees
+	HDU 4507 the Jige series of stories - Hate is not a wife (digital DP)
+	HDU 3652
+	HDU 3709
+	HDU 2089
+	UESTC 1307 WINDY number
+	codeforces 215E
+	zoj 3162 
+	light oj 1032
+	HDU 4507 dp
+
+Backtrack+Pruning		
+	uva 307	Stick DFS+Pruning   
+	uva 331 Mapping the Swaps (***) good question 
+	uva 165 Stamps (*****) Recommended 
+	HDU 1010 
+	POJ 3009 DFS + pruning 
+	USACO Section 5.4 All Latin Squares - DFS pruning, 
+	HDU 1016 
+	HDU 1426 
+	HDU 1455 
+	HDU 2510 
+	HDU 2553 
+	HDU 3290 
+	HDU 2616
+	USACO Section 4.1 Cryptcowgraphy - BT's DFS pruning .
+	ZOJ Problem Set - 2110 Tempter of the Bone  
+	POJ 1270 Following Orders (DFS, topological sorting, pruning)
+	hdu 1074 dfs pruning  
+	poj 1011 
+	poj 2362
+	POJ 1190 birthday cake estimated minimum answer dfs pruning
+	POJ 3172 the Scales (dfs pruning, dp timeout)
+	POJ 1321 chessboard problem dfs backtrack
+	ZOJ 1004 Anagrams by Stack dfs backtrack
+	POJ 1950 dfs
+	POJ 1691 Painting A Board
+	POJ 3107 Godfather tree dfs
+	POJ 1324 Holedox Moving state bfs
+	POJ 2331 Water Pipe ==> IDA * + pruning
+	POJ1011: Sticks (classic DFS pruning)
+	POJ 3009 DFS
+	
+Matrix Expo
+	POJ-2778 DNA Sequence
+	POJ-3613 Cow Relays
+	hdu 3519
+	poj - 3070 - Fibonacci
+	poj 3613 Cow Relays
+	Poj 3233 Matrix Power Series
+	Hdu 3117 Fibonacci Numbers
+	Hdu 2855 Fibonacci Check-up 
+	Hdu 2604 Queuing
+	zoj 2853 Evolution.
+	HDU 1575
+	hdu 3221
+	ZOJ 3216
+	hdu 2243 
+	POJ-3735
+	POJ 3150 Cellular Automaton
+	HDU 1588 Gauss Fibonacci 
+	pku 3735 Training little cats
+	HDU 1757
+	Hdu the 2243 PubMed Road vast - the word complex (the string _DP (matrix))
+	Hdu 2604 Queuing (linear algebra _ matrix)
+	HDU 3306 Another kind of Fibonacci structure matrix power
+	HDU 2842 Chinese Rings build a matrix power
+	HDU 2481 Toy (2008 Chengdu site Polya, recursive, matrix, number theory.)
+	HDU 2157 How many ways??
+	ZOJ 3497 Mistwald
+	HDU 3483 A Very Simple Problem
+	hdu 4382
+
+Gaussian elimination method for solving equations
+	HDU 4200
+	pku 1222 EXTENDED LIGHTS OUT
+	pku 1681 Painter's Problem
+	pku 1830
+	pku 2947 Widget Factory
+	pku 2065 SETI
+	pku 1753 Flip Game
+	pku 3185 The Water Bowls
+	pku 1487 Single-Player Games
+	poj 1222
+	Poj 2605 of SETI (Mathematical _ Gaussian elimination)
+	HDU 4418 Time travel (12 in Hangzhou, Gaussian elimination and probability)
+	HDU 2262 Where is the Canteen the (Gauss expectations problem)
+	poj 4200 
+	POJ 3185 The Water Bowls Gaussian elimination + enumeration argument
+	POJ 2947 Widget Factory Gaussian elimination
+	HDU 4305 Lightning
+	
+
+Game Theory
+	POJ 2234 Matches Game
+	POJ 2975 Nim
+	POJ 2505 A multiplication game
+	POJ 1067 
+	HDU_1907 John(Anti-Nim)
+	POJ 1740 A New Stone Game
+	POJ 2425 A Chess Game (??)
+	HDU_1760 A New Tetris Game(dfs + ??)
+	HDU_1524 A Chess Game (sg??)
+	HDU_1846 Brave Game(sg
+	HDU_1729 Stone Game(SG)
+	HDU_1536 S-Nim(sg??)
+	HDU_1848 Fibonacci again and again(SG????)
+	HDU_1703 Northcott Game
+	POJ 2484 A Funny Game  ?
+	POJ 2425 A Chess Game
+	POJ 2960 S-Nim    sg??
+	POJ 1704 Georgia and Bob 
+	POJ 1740 A New Stone Game
+	POJ 2068 Nim
+	POJ 3480 John    Anti-SG
+	POJ 2348 Euclid's Game
+	POJ 3710 Christmas Game
+	POJ 3533 Light Switching Game
+	POJ 3537 Crosses and Crosses
+	hdu 4023
+	poj 2425
+	poj 1704
+	UVA 12530 Game of Tiles 
+	CF 277C Game (NIM game) 
+	ZOJ 3666 Alice and Bob 
+	ZOJ 3617 Riding Alone for
+	POJ 3317 Stake Your Claim (Minimax Search + alpha-beta pruning)
+	POJ 1568 Find the Winning Move (Minimax search + alpha-beta pruning)
+	POJ 1085 Triangle War (game, Minimax Search + alpha_beta the pruning)
+	HDOJ 3537 Daizhenyang's Coin (turn the coin game) 
+	HDU 1538 A Puzzle for Pirates 
+	The ZOJ 1039 Number Game (state compression, memory search)
+	ZOJ 3057 Beans Game (Game DP)
+	ZOJ 3591 Nim (NIM game +
+	ZOJ 3529 A Game Between Alice and Bob (number theory + SG Game)
+	ZOJ2686 Cycle Game (Game, to find the law, Search) 
+	POJ 3710 Christmas Game (Tarjan and connectivity components + tree game Border Erase game)
+	POJ 2599 A funny game (search, game)
+	The of POJ 2068 NIM (Game DP) 
+	POJ 1678 I Love this Game! (Game DP)
+	POJ 2311 Cutting Game (SG function) 
+	HDU 3590 PP and QQ (tree Border Erase Game + Anti-SG)
+	HDU 3904 A tree game (Border Erase game tree, tree diagrams, game)
+	HDU 1524 A Chess Game (Game directed acyclic graph SG) 
+	HDU 4111 Alice and Bob (Game) 11 live race in Chengdu
+	HDU 3595 GG and MM (Every_SG game) 
+	HDU 2999 Stone Game, Why are you always there? 
+	HDU 1907 John (ANTI-SG) 
+	HDU 1729 Stone Game (SG function) 
+	HDU 3404 Switch lights (NIM product)
+	HDU A simple Stone game [K times the dynamic subtraction game]
+	HDU 2177 (heap) of gravel game Wythoff Game + output program 
+	Lasker's Nim (HDU 3032)
+	The Fibonacci Qibo Yi 
+	HDU 1525 Euclid's Game (Game) 
+	HDU 1079 Calendar Game (Game)
+Burnside Lemma
+	pku2409 Let it Bead   
+	pku2154 Color
+	pku1286 Necklace of Beads
+	pku2888 Magic Bracelet
+
+Fast exponentiation permutation group 
+	pku3270 Cow Sorting
+	pku1026 Cipher
+	pku1721 CARDS
+	pku3128 Leonardo's Notebook
+	pku3590 The shuffle Problem
+
+Computational Geometry
+	
+	Half Plane Cross
+		POJ 3335
+		POJ 3130
+		POJ 1474
+		POJ 1279
+		POJ 3525
+		POJ 2540
+		POJ 3384 Feng Shui	
+	Rotating stuck
+		POJ  2187
+		POJ  2079
+	URAL 1294. Mars Satellites
+	URAL 1111. Squares
+	URAL 1075. Thread in a Space
+	URAL 1215. Exactness of Projectile Hit
+	URAL 1640. Circle of Winter
+	hdu 4033 Regular Polygon
+	hdu 3995 Perfect Faceless Void
+	hdu 3982 Harry Potter and J.K.Rowling
+	zoj 2906 || poj 3449 Geometric Shapes
+	zoj 2978 Phone Cell
+	zoj 2870 || poj 3304 Segments
+	UVA 11817 Tunnelling the Earth
+	UVA 11227 The silver bullet
+	hdu 3952 Fruit Ninja
+	UVA 10927 Bright Lights
+	zoj 3272 || hdu 3264 Open-air shopping malls
+	hdu 3511 Prison Break
+	hdu 3932 Groundhog Build Home
+	poj 3384 Feng Shui
+	poj 3525 Most Distant Point from the Sea
+	zoj 3518 Unsafe Factor
+	zoj 1450 Minimal Circle
+	zoj 1472 Overlapping Shapes
+	poj 2546 Circular Area
+	zoj 3058 Circle and Ring
+	zoj 2589 Circles
+	UVA 10522 Height to Area
+	poj 3608 Bridge Across Islands
+	zoj 2403 || poj 2194 || poj 2850 Stacking Cylinders
+	ural 1348. Goat in the Garden 2
+	poj 3528 & poj 2974 Ultimate Weapon(3D
+	hdu 3264 Open-air shopping malls
+	poj 3714 Raid
+	poj 3565 Ants
+	poj 3608 Bridge Across Islands
+	poj 3525 Most Distant Point from the Sea
+	poj 3335 Rotating Scoreboard
+	poj 3348 Cows
+	poj 3304 Segments
+	HDU 4404
+	hdu 4353
+	poj 3277
+	poj 1177
+	poj 1151 
+	poj 1765 
+	poj 2280
+	poj 3004
+	poj 3130
+	poj 3335
+	Ural_1215. Exactness of Projectile Hit
+	Ural_1030. Titanic
+	Ural_1333. Genie Bomber 2
+	Ural_1348. Goat in the Garden 2 (computational geometry)
+	Ural_1207. Median on the Plane (computational geometry)
+	Ural_1052 Rabbit Hunt
+	HDU_1086 You can Solve a Geometry Problem too (geometry question)
+	zoj 3537 triangulation simple interval DP
+	POJ-2684 Polygonal Line Search
+	POJ-1548 A Round Peg in a Ground Hole
+	POJ-1408 Fishnet
+	POJ-1039 Pipe
+	POJ-2031 Building a Space Station
+	POJ 1379 Run Away (basic simulated annealing) 
+	HDU 3761 Jungle Outpost (binary + half-plane cross)
+	HDU 4266 The Worm in the Apple (three-dimensional convex hull)
+	HDU 3629 Convex (10 in Tianjin, computational geometry) 
+	HDU 3644 A Chocolate Manufacturer's Problem (Simulated Annealing)
+	POJ 1375 Intervals (analytic geometry)
+	hdu 4063 Aircraft
+	POJ 1981 Circle and Points (unit circle covering n ^ 3 && n ^ 2lgn)
+	POJ 3608 Bridge Across Islands (two convex hull distance, rotate the insert) 
+	POJ 2187 Beauty Contest (the convex hull rotary stuck) 
+	HFUT 1288 Milky Way 5A scenic spot [Anhui third Prov] 
+	POJ 3932 Groundhog Build Home (smallest circle coverage)
+	POJ 2420 A Star not a Tree? (Weifei Ma points)
+	POJ 3565 Ants (computational geometry, KM) 
+	POJ 2540 Hotter Colder (half-plane cross-seeking feasible region)
+	POJ 1755 Triathlon (half-plane cross Inequality) 
+	POJ 3384 Feng Shui (half-plane cross) 
+	POJ 3525 Most Distant Point from the Sea (half-plane AC +)
+	POJ 1279 Art Gallery (half-plane cross-seeking the polygon nuclear) 
+	POJ 1265 Area (area, pick formula) 
+	POJ 1654 Area (the arbitrary polygon area)
+	POJ 1873 The Fortified Forest (convex hull + enumeration)
+	
+DataStructure
+	
+	Segment Tree
+		--poj3468 A Simple Problem with Integers
+		--hdu3333 Turing Tree
+		--hdu3333 Turing Tree
+		--hdu3874 Necklace
+		--hdu3016 Man Down
+		hdu3340 Rain in ACStar
+		--POJ 2828 Buy Tickets segment tree (diablo)
+		--POJ 2823 Sliding Window segment tree water problem
+		--POJ 2155 two-dimensional segment tree slipcase tree
+		--POJ 3468 segment tree Plug asked line interval summation
+		--POJ 2352 segment tree
+		--ZOJ 3650 Toy Blocks (segment tree + DP)  jotil dp
+		ZOJ 3349 Special Subsequence (DP + segment tree optimization)
+		--hdu 4366 Successor    (jotil segment tree) 
+		--hdu 4343 Interval query
+		--hdu 4348 To the moon
+		hdu 3473 Minimum Sum
+		hdu 4417 Super Mario
+		hdu 4331 Image Recognition(DP
+		hdu 3255 Cascading
+		hdu 3642 Cascading
+		hdu 1255 Cascading
+		hdu 3265 Cascading
+		hdu 4419 Cascading
+	
+	Suffix Array/Suffix Automata
+		POJ-3294 Life Forms
+		POJ-3415 Common Substrings
+		POJ-2774 Long Long Message
+		POJ-3693 Maximum repetition substring
+		POJ-3261 Milk Patterns
+		POJ-1743 Musical Theme
+		POJ-3974 Palindrome Manacher
+		HUD-4513  Manacher Algo
+		Zoj 3595 Stammering Aliens (string the _ suffix array)
+		HDU 4029 DISTINCT Sub-matrix (11 warm-up suffix array)
+		HDU 4270 Dynamic Lover (12 years Changchun network game SAM) Suffix Automata
+		HDU 4416 Good Article Good sentence (SAM) Suffix_Automata
+		In the HDU 4436 str2int (12 years in Tianjin, SAM) Suffix Automata
+		POJ 3729 Facer's string (suffix array)
+		HDU 3518 Boring counting (suffix array)
+		POJ 3415 Common substrings (suffix array + monotonous stack)
+		hdu 3518 Boring counting
+		poj 3581 Sequence
+		hdu 4323 Magic Number
+		
+	LCA
+		Zoj 3195 Design the city (the data structure _LCA)
+		Hdu 2874 Connections between cities (data the structure _LCA)
+		
+	
+	KMP/AhoCorasick
+		POJ-1204 Word Puzzles
+		POJ-3691 DNA repair
+		POJ-2778 DNA Sequence
+		Done POJ-3461 Oulipo KMP
+		POJ-1226 Substrings KMP
+		POJ-3450 Corporate Identity KMP
+		POJ-3080 Blue Jeans KMP
+		ZOJ 3430
+		POJ 1625
+		HDU 2825
+		HDU 2296
+		HDU 2457
+		ZOJ 3228
+		HDU 3247
+		ZOJ 3494
+		ZOJ 3587
+		poj 1699 TSP(DP) + KMP
+		HDU 4295 4 substrings problem (state compression)
+		HDU 4117 GRE Words (string _AC automata (DP))
+		Hdu 4187 Alphabet Soup (the mathematical _Polya (KMP))
+		Poj 4052 Hrinity (Jinhua Invitational I) (string _AC automatic machine)
+		Hdu the 2243 PubMed Road vast - the word complex (the string _DP (matrix))
+		Hdu 3962 Microgene (the string _AC automaton (matrix DP))
+		HDU 3341 Lost's Revenge (string _AC automata (DP))
+		POJ 2541 Binary the Witch (string _KMP)
+		Zoj 3587 Marlons String (the string _KMP)
+		FZU 1926 fill in the blank (string processing _KMP)
+		hdu 2896 viruses (the string _AC automata)
+		poj 2185 Milking Grid (string __KMP of good questions)
+		poj 2752 Seek the Name, Seek the Fame (the string __KMP)
+		POJ 2406 Power Strings (string __KMP),
+		POJ 3167 Cow the Patterns (string __KMP good question)
+		hdu 1867 A + B for you again (__KMP)
+		hdu 2203 pro and string (string __KMP)
+		hdu 2594 Simpsons' Hidden Talents (string __KMP of)
+		POJ 1961 KMP algorithm application
+		Hang power 3746 KMP algorithm for the string loop section
+		Hangzhou, 2087 KMP algorithm application occurrences,
+		hdu 3374 String Problem
+		hdu 4300 Clairewd's message
+		hdu 3695 Computer Virus on Planet Pandora (no + TLE)
+		hdu 3065 virus attacks continued in
+		HDU 4534 Zheng director series of stories - News purification (the AC automaton + DP)
+		CF 119D String Transformation (KMP, hash, enumerations, various optimization)
+		HDU 4057 Rescue the Rabbit (11 years Dalian, AC automata the + Status compression DP)
+		The CC FAVNUM (AC automaton + DP)
+		poj 3376 Finding Palindromes
+		HDU 4534
+		
+	
+	Trie/Tree
+		POJ-3630 Phone List
+		POJ-2513 Colored Sticks
+		POJ 4025 Dictionary Size
+		Poj 3764 The xor-longest Path (string _ dictionary tree)
+		POJ 2513 Colored Sticks (string _ dictionary tree (and check the set))
+		Zoj 3181 Cover the String (string _ dictionary tree (DP))
+		POJ 1816 Wild Words (string _ dictionary tree)
+		Zoj 1109 Language of FatMouse (string _ dictionary tree)
+		Zoj 1808 Immediate Decodability (string _ dictionary tree)
+		poj 1415 | hdu 1298 T9 (string _ dictionary tree)
+		2846 HDU dictionary tree deformation
+		hdu 3724 Encoded Barcodes
+		hdu 3460 Ancient Printer
+		hdu 2846 Repository
+	
+
+Graph Theory 
+	
+	BFS/DFS/TopologicalSort
+		HDU 4171 bfs && shortest
+		POJ 1236 - Network of Schools
+		POJ 1659 - Frogs' Neighborhood
+		POJ 2553 - The Bottom of a Graph
+		POJ 2762
+		POJ 3249 - Test for Job
+		POJ 3687 - Labeling Balls
+		POJ 1985 - Cow Marathon
+	
+	SCC/Bridge/BCC/Articulation Point
+		HDU 2767
+		FZU 1719 Spy Network
+		hdu 3072 Intelligence System
+		POJ 3177 Redundant Paths undirected graph cut edge + contraction point
+		POJ 3352 Road Construction undirected graph cut edge + point reduction
+		POJ 2553 The Bottom of a Graph strong Unicom component
+		HDU 3836 joint school race strongly connected components
+		HDU 3072
+		POJ_2117 Elcctricity (tarjan ???)
+		POJ_1523 SPF (Tarjan ???)
+		POJ_2186 Popular Cows (Tarjan ????? ??)
+		zoj 3195(LCA
+		poj 3417(LCA
+		poj 3728(LCA
+		hdu 4005
+		poj 3713
+		POJ 3352 3177 / / Bridge
+		POJ 1144 Network / / cutting point
+		POI 1999 warehouse administrator Store-Keeper
+		pku 3177 (3352) Redundant Paths and
+		poj 2942
+		poj 3694 (??+LCA??)
+		poj 1523
+		poj 2117
+		hdu 3072
+	
+	Floyd/Dijkstra/BellMan Ford
+		TJU #2870: The K-th City
+		TJU #1075: Stockbroker Grapevine
+		TJU #1129: Arbitrage 
+		TJU #1363: Fiber Network
+		UVA #4431: Fruit Weights (Live Archive)
+		POJ-3635 Full Tank
+		POJ-3621 Sightseeing Cows
+		POJ-3463 Sightseeing
+		POJ-3013 Big Christmas Tree
+		POJ-1860 Currency Exchange SPFA
+		POJ-2135 Farm Tour
+		POJ 3268 Dijkstra () positive and negative matrix
+		POJ-2449 Remmarguts' Date
+		POJ 3660 floyd algorithm
+		POJ 3268 Dijkstra algorithm
+		POJ 3259 bellman_ford algorithm
+		HDU 3832 joint school race shortest path Dijkstra algorithm
+		HDU shortest Dijkstra algorithm 3790
+		POJ 2253 Floyd deformation
+		hdu 3631 Shortest Path
+		hdu 3986 Harry Potter and the Final Battle
+		hdu 2807 The Shortest Path
+		hdu 3339 In Action
+		hdu 2923 Einbahnstrasse
+		hdu 2680 Choose the best route
+		hdu 3790 shortest path problem
+		hdu 2544 shortest
+		hdu 3632 A Captivating Match
+		hdu 3666 THE MATRIX PROBLEM / / 2010 Harbin field season
+		hdu 3592 World Exhibition / / differential constraints
+		hdu 3873
+		POJ 3613 - Cow Relays 
+		POJ 3635 - full tank?
+		HDU 4284 Travel Tianjin state DP (12)
+		HDU 2807 The Shortest Path
+		hdu 3986 Harry Potter and the Final Battle
+		hdu 3665 Seaside
+		hdu 3832 Earth Hour
+		hdu 2851 Lode Runner
+		ural 1085. Meeting
+		ural 1072. Routing
+		zoj 2583 || poj 2679 Adventurous Driving
+		zoj 1721 || poj 1556 The Doors
+		zoj 2887 || poj 3439 Server Relocation
+		zoj 2864 Catch the thief
+		poj 3615 Cow Hurdles
+		poj 3159 Candies
+		zoj 2770 Burn the Linked Camp
+		poj 2387 Til the Cows Come Home
+		zoj 3166 Lazy Tourist(???Floyd)
+		zoj 1221 || poj 1603 Risk(Floyd~)
+		zoj 1952 Heavy Cargo
+		
+	Euler:
+		hdu 3018 Ant Trip
+		uva 10054 - The Necklace
+		HDU 1878 Euler  loop
+		hdu 1116 Play on Words
+		poj 2513 Colored Sticks
+		poj 2337 Catenyms
+		The Mixed Graphs Euler POJ 1637
+	
+	MST/Directed MST
+		hdu 4081
+		POJ-1679 The Unique MST
+		POJ-2728 Desert King
+		POJ 3026 Borg Maze bfs + minimum spanning tree
+		POJ 3625 Building Roads minimum spanning tree
+		hdu 4463 Outlets
+		poj 1639 Picnic Planning
+		poj 3723 Conscription
+		poj 3522 Slim Span
+		POJ 2728 Desert King
+		poj 1751 Highways
+		poj 2395 Out of Hay
+		poj 2485 Highways
+		poj 2377 Bad Cowtractors
+		poj 1789 Truck History
+		POJ 1287 Networking
+		poj 1258 Agri-Net
+		poj 1861 network
+		hdu 1879 to continue the flow of engineering
+		hdu 1875 Smooth Traffic Project adjourned to
+		uva 10099 The Tourist Guide
+		UVA 10048 - Audiophobia
+		hdu 1863 Construction
+		poj 2349 uva 10369 - Arctic Network
+		poj 2560 uva 10034 - Freckles
+		hdu 1233 or Smooth Traffic Project
+		HDU 1232 smooth Engineering
+		hdu 4009 Transfer water (DMST)
+		POJ 1797 Heavy Transportation
+		POJ 1639
+		POJ 3522
+		POJ 3164 DMST
+		HDU 2121
+	
+	2-SAT
+		HDU 3062
+		HDU The Bomb Game 3622 / / 2 - SAT
+		PKU 3207
+		PKU 3678
+		PKU 2723
+		PKU 3648
+		PKU 3683
+		PKU 2749
+		POJ 2723 - Get in Luffy Out
+		hdu 1824 Let's go home 
+		poj 2296 Map Labeler(??+2-sat??)
+		hdu 3622 Bomb Game(??+2-sat??)
+		hdu 3715 Go Deeper(??+2-sat??)
+		poj 2296 Map Labeler(??+2-sat??)
+		
+	
+	BPM
+		Done POJ-3715 Blue and Red
+		Done POJ-3020 Antenna Placement
+		Done HDU-3829 Cat VS Dog
+		Done POJ-2446 Chessboard
+		Done HDU-2813 One fihgt one
+		Done HDU-1150 Machine Schedule
+		--POJ-3686 The Windy's   (km algo)
+		Done POJ-2594 Treasure Exploration
+		POJ-3014 Asteroids
+		--POJ-2400 Supervisor, Supervisee   (km algo)
+		--Done POJ-2195 Going Home
+		--Done POJ-2226 Muddy Fields 
+		--Done POJ-2060 Taxi Cab Scheme
+		--poj 3692 two smallest point set coverage
+		--poj 3041 two smallest point set coverage
+		HDU 2853 Assignment (km algorithm)
+		--hdu 3729
+		--HDU 3488 Tour(bangla km) / / 2010 ACM-ICPC Multi-University Training Contest (6) - Host by BIT
+		HDU 3435 A new Graph Game / / KM
+		hdu 1853 Cyclic Tour / / km
+		hdu 2448 Mining Station on the Sea / / floyed + km algorithm
+		HDU 2389 Rain on your Parade / / MAXMATCH
+		HDU Revisited 3126 Nova / / binary approach + multiple matches
+		hdu 3517 Adopt or not
+		hdu 3338 Kakuro Extension
+		hdu 3991 Harry Potter and the Present II / / coverage
+		hdu 3729
+		hdu 3491 Thieves / / 2010 ACM-ICPC Multi-University Training Contest (6) - Host by BIT
+		POJ 1149 PIGS / / 
+		POJ 1087 A Plug for UNIX / /
+		hdu 3446 daizhenyang's chess (Blossom BPM)		
+		zoj 3316 Game (Blossom BPM)
+		hdu 3729 I'm Telling the Truth
+		hdu 3722 Card Game
+		
+	Network Flow
+		sgu 185 Two shortest
+		POJ-3436 ACM Computer Factory
+		ZOJ-3615 Party of 8g
+		HDU-3998 Sequence
+		HDU-3996 Gold Mine 
+		POJ-3189 Steady Cow Assignment 
+		POJ-2391 Ombrophobic Bovines
+		POJ-3469 Dual Core CPU
+		POJ-2112 Optimal Milking
+		POJ-2455 Secret Milking Machine
+		POJ-1273 Drainage Ditches
+		hdu 3046 Pleasant sheep and big big wolf
+		hdu 2732 Leapin' Lizard
+		pku 2396 Budget
+		hdu 2883 kebab
+		hdu 3061 Battle
+		PKU 3680 Intervals
+		PKU 3422 Kaka's Matrix Travels
+		PKU 2516 Minimum Cost
+		POJ 2391 Ombrophobic Bovines //FLOTED+SAP
+		hdu 3931 Cross the Fire
+		HDU 3917
+		hdu 3435 A new Graph Game
+		hdu 2732 / poj 2711 Leapin' Lizards 
+		hdu 3046 Pleasant sheep and big big wolf / / minimum cut
+		The minimum cut ZOJ 2587 only
+		hdu 3667 Transportation / / extension on the side cost flow
+		HDU 3081 Marriage Match II
+		POJ 2125 Destroying The Graph
+		POJ 2516 Minimum Cost / / Cost Flow
+		POJ 3084 Panic Room / / minimum cut
+		POJ 3308 Paratroopers / / minimum cut
+		poj 3281 Dining / / SAP
+		poj 1815 Friendship / / minimum cut
+		zoj 2760 How Many Shortest Path / / MAXFLOW
+		HDU 4292 Food (split point, maximum flow)
+		HDU 4289 Control
+		HDU 4288 Coder
+		hdu 3987 Harry Potter and the Forbidden Forest
+		hdu 3861 The King\92s Problem
+		zoj 3362 Beer Problem
+		hdu 3718 Similarity
+		hdu 4322 Candy
+		hdu 4067 Random Maze
+		poj 2391 Ombrophobic Bovines
+		hdu 3157
+		zoj 3229
+		zoj 2314
+		poj 3189
+		hdu 3996
+		hdu 3998(DP+Flow)
+		poj 1449
+		poj 2455
+		poj 2112+ BinarySearch
+		hdu 3551 Hard Problem
+		hdu 3987 Base Station
+		hdu 3996 Gold Mine 
+		hdu 3061 Battle
+		hdu 3526 Computer Assembling
+		uva 563 Crimewave
+		zoj 2332 Gems
+		zoj 2587 Unique Attack 

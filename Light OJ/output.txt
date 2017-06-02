@@ -1,0 +1,10 @@
+Case 1: 2
+Case 2: 3
+Case 3: 121
+Case 4: 137
+Case 5: 21
+Case 6: 37
+Case 7: 3
+Case 8: 867197972
+Case 9: 230682592
+Case 10: 434992655

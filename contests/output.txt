@@ -1,0 +1,10 @@
+Case 1: impossible
+Case 2: impossible
+Case 3: impossible
+Case 4: 0!+1!+2!+4!
+Case 5: 1!+3!+4!
+Case 6: 2!+3!+4!
+Case 7: 1!+2!+3!+4!
+Case 8: impossible
+Case 9: impossible
+Case 10: 2!+6!+8!+19!
