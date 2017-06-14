@@ -15,6 +15,7 @@
 #include <queue>
 #include <set>
 #include <map>
+#include <bitset>
 
 #define in freopen("input.in", "r", stdin);
 #define out freopen("control.out", "w", stdout);
@@ -50,86 +51,67 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 2510
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
-string s;
-int x, y, dp[MAX][2][2];
-
-int call(int indx, int chhoto, int start)
-{
-	// cout << indx << ' ' << chhoto << ' ' << start << endl;
-	if(indx == SZ(s))
-	{
-		// cout << "start: " << start << endl;
-		return start;
-	}
-	int &ret = dp[indx][chhoto][start];
-	if(~ret) return ret;
-	ret = 0;
-	if(chhoto)
-		return ret = call(indx+1, chhoto, start || (y>0));
-	if(y <= (s[indx]-'0'))
-	{
-		ret = call(indx+1, y < (s[indx]-'0'), start || (y > 0));
-		// cout << "y: " << y << endl;
-	}
-	else if(x <= (s[indx]-'0'))
-	{
-		ret = max(ret, call(indx+1, x < (s[indx]-'0'), start || (x > 0)));
-		// cout << "x: " << x << endl;
-	}
-	else if(start == 0)
-		ret = max(ret, call(indx+1, (s[indx]-'0') > 0, 0));
-	// cout << x << ' ' << y << ' ' << (s[indx]-'0') << endl;
-	return ret;
-}
-
-string print(int indx, int chhoto, int start)
-{
-	if(indx == SZ(s))
-		return "";
-	if(chhoto && call(indx+1, chhoto, start || (y>0)))
-		return tostring(y) + print(indx+1, chhoto, start || (y>0));
-	if(y <= (s[indx]-'0') && call(indx+1, y < (s[indx]-'0'), start || (y > 0)))
-	{
-		return tostring(y) + print(indx+1, y < (s[indx]-'0'), start || (y > 0));
-		// cout << "y: " << y << endl;
-	}
-	if(x <= (s[indx]-'0') && call(indx+1, x < (s[indx]-'0'), start || (x > 0)))
-	{
-		return tostring(x) + print(indx+1, x < (s[indx]-'0'), start || (x > 0));
-		// cout << "x: " << x << endl;
-	}
-	if(start == 0 && call(indx+1, (s[indx]-'0') > 0, 0))
-		return tostring(0) + print(indx+1, (s[indx]-'0') > 0, 0);
-	assert(0);
-}
-
-string cut_leading_zeros(string s)
-{
-	int i;
-	for(i = 0; i < SZ(s); i++)
-		if(s[i] != '0')
-			break;
-	return s.substr(i);
-}
+vector <int> arr[MAX], adj[MAX];
+bitset <MAX> bs[MAX], need;
 
 int main()
 {
 	in;
-	cin >> s >> x >> y;
-	if(x > y)
-		swap(x, y);
-	clr(dp, -1);
-	int res = call(0, 0, 0);
-	if(res == 0)
+	int test, n, k, i, j, x;
+	cin >> test;
+	while(test--)
 	{
-		cout << -1;
-		return 0;
-	}	
-	string ans = print(0, 0, 0);
-	cout << cut_leading_zeros(ans);
+		cin >> n >> k;
+		int res = 0;
+		for(i = 1; i <= k; i++)
+			adj[i].clear(), need.set(i);
+		int mn = n, indx = 1;
+		for(i = 1; i <= n; i++)
+		{
+			cin >> x;
+			arr[i].resize(x);
+			bs[i].reset();
+			for(j = 0; j < x; j++)
+			{
+				cin >> arr[i][j];
+				adj[arr[i][j]].pb(i);
+				bs[i].set(arr[i][j]);
+			}
+		}
+		for(i = 1; i <= k; i++)
+		{
+			if(SZ(adj[i]) < mn)
+			{
+				mn = SZ(adj[i]);
+				indx = i;
+			}
+		}
+		cout << indx << endl;
+		for(auto x: adj[indx])
+		{
+			int not_found = 1;
+			sort(all(arr[x]));
+			for(auto y: arr[x])
+			{
+				if(y == not_found)
+					not_found++;
+				else
+					break;
+			}
+			if(not_found > k)
+				res += n-1;
+			for(auto y: adj[not_found])
+			{
+				if((bs[x]|bs[y]) == need)
+					res++;
+			}
+		}
+		cout << res << "\n";
+
+	}
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

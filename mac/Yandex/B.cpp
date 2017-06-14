@@ -16,7 +16,7 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
+#define in freopen("input.in", "r", stdin);
 #define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
@@ -55,25 +55,24 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
 int main()
 {
-	string s;
-	cin >> s;
-	for(int i = 0; i < SZ(s); i++)
-	{
-		for(char ch = 'a'; ch <= 'z'; ch++)
-		{
-			if(ch == s[i])
-				continue;
-			string cur = s.substr(0, i) + ch + s.substr(i+1);
-			string rev = cur;
-			reverse(all(rev));
-			if(rev == cur)
-			{
-				cout << "YES\n";
-				return 0;
-			}
-		}
-	}
-	cout << "NO";
+	// in;
+	int ax, ay, bx, by;
+	cin >> ax >> ay >> bx >> by;
+	int mn = min(ax, ay), res = mn;
+	ax -= mn;
+	ay -= mn;
+
+	mn = min(bx, by);
+	res += mn;
+	bx -= mn;
+	by -= mn;
+	
+	mn = abs(ax-bx) + abs(ay-by);
+	if(mn % 2)
+		res += 2*mn-1;
+	else
+		res += 2*mn;
+	cout << res;
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 
