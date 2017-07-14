@@ -16,8 +16,8 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
-#define out freopen("output.out", "w", stdout);
+#define in freopen("input.in", "r", stdin);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -55,14 +55,43 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
 int main()
 {
-	out;
-	for(int i = 0; i < 10; i++)
+	// in;
+	int n, k, i;
+	cin >> n >> k;
+	if(k == 2)
 	{
-		string s;
-		for(int j = 0; j < 10; j++)
-			s += '0';
-		cout << ",\"" << s << "\"";
+		cout << n-1 << '\n';
+		for(i = 1; i < n; i++)
+			cout << i << ' ' << i+1 << '\n';
+		return 0;
 	}
+	priority_queue <pair<int, int>, vector <pair<int, int>>, greater<pair<int, int>> > Q;
+	i = 2;
+	vector <pair<int, int>> res;
+	while(k--)
+	{
+		Q.push({1, i});
+		res.pb({1, i});
+		i++;
+	}
+	while(i <= n)
+	{
+		auto top = Q.top();
+		Q.pop();
+		res.pb({top.second, i});
+		Q.push({top.first+1, i});
+		i++;
+	}
+	while(SZ(Q) > 2)
+		Q.pop();
+	int dist = 0;
+	dist += Q.top().first;
+	Q.pop();
+	dist += Q.top().first;
+	Q.pop();
+	cout << dist << "\n";
+	for(auto r: res)
+		cout << r.first << ' ' << r.second << "\n";
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

@@ -69,8 +69,8 @@ void add_to_col(int c, int val)
 
 int main()
 {
-	in;
-	out;
+	// in;
+	// out;
 	int i, j, res = infinity;
 	cin >> n >> m;
 	for(i = 0; i < n; i++)

@@ -16,8 +16,8 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
-#define out freopen("output.out", "w", stdout);
+#define in freopen("input.in", "r", stdin);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -50,19 +50,43 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 210
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
+
+string grid[MAX];
 
 int main()
 {
-	out;
-	for(int i = 0; i < 10; i++)
+	// in;
+	int n, m, i, j, B = 0;
+	cin >> n >> m;
+	for(i = 0; i < n; i++)
+		cin >> grid[i];
+	int minx = 444, maxx = -444, miny = 444, maxy = -444;
+	for(i = 0; i < n; i++)
+		for(j = 0; j < m; j++)
+		{
+			if(grid[i][j] == 'B')
+			{
+				minx = min(minx, i);
+				maxx = max(maxx, i);
+				miny = min(miny, j);
+				maxy = max(maxy, j);
+				B++;
+			}
+		}
+	int side = max(abs(minx-maxx), abs(miny-maxy)) + 1;
+	if(B == 0)
 	{
-		string s;
-		for(int j = 0; j < 10; j++)
-			s += '0';
-		cout << ",\"" << s << "\"";
+		cout << 1;
+		return 0;
 	}
+	if(side > n || side > m)
+	{
+		cout << -1;
+		return 0;
+	}
+	cout << side*side - B;
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

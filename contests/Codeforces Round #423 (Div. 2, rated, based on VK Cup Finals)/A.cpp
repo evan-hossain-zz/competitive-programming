@@ -16,8 +16,8 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
-#define out freopen("output.out", "w", stdout);
+#define in freopen("input.in", "r", stdin);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -55,14 +55,32 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
 int main()
 {
-	out;
-	for(int i = 0; i < 10; i++)
+	// in;
+	int n, a, b, t, aOfB = 0, res = 0;
+	cin >> n >> a >> b;
+	while(n--)
 	{
-		string s;
-		for(int j = 0; j < 10; j++)
-			s += '0';
-		cout << ",\"" << s << "\"";
+		cin >> t;
+		if(t == 1)
+		{
+			if(a)
+				a--;
+			else if(b)
+			{
+				b--;
+				aOfB++;
+			}
+			else if(aOfB)
+				aOfB--;
+			else
+				res++;
+		}
+		else if(b)
+			b--;
+		else
+			res += 2;
 	}
+	cout << res;
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

@@ -16,8 +16,8 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
-#define out freopen("output.out", "w", stdout);
+#define in freopen("input.in", "r", stdin);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -50,18 +50,85 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 100010
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
+
+LL tree[11][11][4][MAX];
+int dna[200];
+
+LL read(int T, int start, int strand, int idx)
+{
+    LL sum = 0;
+    while(idx > 0){
+        sum += tree[T][start][strand][idx];
+        idx -= (idx & -idx);
+    }
+    return sum;
+}
+
+void update(int T, int start, int strand, int idx, LL val, int n)
+{
+    while(idx <= n)
+    {
+        tree[T][strand][start][idx] += val;
+        idx += (idx & -idx);
+    }
+}
 
 int main()
 {
-	out;
-	for(int i = 0; i < 10; i++)
+	in;
+	string s, e;
+	char c;
+	int q, i, l, r, t, x;
+	cin >> s;
+	s = "#" + s;
+	dna['A'] = 0;
+	dna['T'] = 1;
+	dna['C'] = 2;
+	dna['G'] = 3;
+
+	for(int T = 1; T <= 10; T++)
 	{
-		string s;
-		for(int j = 0; j < 10; j++)
-			s += '0';
-		cout << ",\"" << s << "\"";
+		string tem = "ATCG";
+		for(auto strand: tem)
+		{
+			for(int start = 1; start <= 10; start++)
+				for(int i = start; i < SZ(s); i += T)
+					if(strand == s[i])
+						update(T, start, dna[strand], i, 1, SZ(s));
+		}
+	}
+	cin >> q;
+	while(q--)
+	{
+		cin >> t;
+		if(t == 1)
+		{
+			cin >> x >> c;
+			for(int T = 1; T <= 10; T++)
+			{
+
+				for(int start = 1; start <= 10; start++)
+					if((x-1) % T == 0)
+					{
+						update(T, start, dna[s[x]], x, -1, SZ(s));
+						update(T, start, dna[c], x, 1, SZ(s));
+					}
+			}
+			s[x] = c;
+		}
+		else
+		{
+			cin >> l >> r >> e;
+			int res = 0;
+			for(int start = 1; start <= SZ(e); start++)
+				for(i = 0; i < SZ(e); i++)
+				{
+					res += read(SZ(e), start, dna[e[i]], r-i) - read(SZ(e), start, dna[e[i]], l-1+i);
+				}
+			cout << res << "\n";
+		}
 	}
     return 0;
 }
