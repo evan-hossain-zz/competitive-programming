@@ -17,7 +17,7 @@
 #include <map>
 
 #define in freopen("input.in", "r", stdin);
-#define out freopen("input.in", "w", stdout);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -55,17 +55,19 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
 int main()
 {
-    out
-    int test = 100;
-    srand(INT_MAX);
-    while(test--)
-    {
-        int n = rand()%50  + 1;
-        cout << n << endl;
-        while(n--)
-            cout << rand() % 50000 + 1 << ' ';
-        cout << endl;
-    }
+	// in;
+	int i, n, x;
+	cin >> n;
+	while(n--)
+	{
+		cin >> x;
+		if(x%2)
+		{
+			cout << "First";
+			return 0;
+		}
+	}
+	cout << "Second";
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

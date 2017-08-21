@@ -17,7 +17,7 @@
 #include <map>
 
 #define in freopen("input.in", "r", stdin);
-#define out freopen("input.in", "w", stdout);
+#define out freopen("output.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -50,37 +50,58 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 400010
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
+
+int mark[2*MAX];
+
+int get_id(int x, int y, int n)
+{
+    if(x > 0 && x < n && y == 0)
+        return x;
+    if(x == n)
+        return n + y;
+    if(y == n)
+        return 3*n - x;
+    return 4*n-y;
+}
+
+int get_sum(int l, int r)
+{
+    if(l == 0)
+        return mark[r];
+    return mark[r] - mark[l-1];
+}
 
 int main()
 {
-    out
-    int test = 100;
-    srand(INT_MAX);
-    while(test--)
+    // in;
+    int n, m, k, i, j, x, y;
+    cin >> n >> m >> k;
+    while(m--)
     {
-        int n = rand()%50  + 1;
-        cout << n << endl;
-        while(n--)
-            cout << rand() % 50000 + 1 << ' ';
-        cout << endl;
+        cin >> x >> y;
+        int id = get_id(x, y, n);
+        mark[id]++;
+        mark[4*n+id]++;
     }
+    int res = INT_MAX;
+    for(i = 1; i < 2 * MAX; i++)
+        mark[i] += mark[i-1];
+    for(i = 0; i < MAX; i++)
+    {
+        int low = i, high = 2*MAX-1, mid;
+        while(low <= high)
+        {
+            mid = (low+high)/2;
+            int sum = get_sum(i, mid);
+            if(sum >= k)
+                res = min(res, mid-i), high = mid-1;
+            else
+                low = mid+1;
+        }
+    }
+    cout << res;
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

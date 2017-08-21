@@ -15,6 +15,7 @@
 #include <queue>
 #include <set>
 #include <map>
+#include <iomanip>
 
 #define in freopen("input.in", "r", stdin);
 #define out freopen("input.in", "w", stdout);
@@ -50,22 +51,16 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 100000
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
 int main()
 {
-    out
-    int test = 100;
-    srand(INT_MAX);
-    while(test--)
-    {
-        int n = rand()%50  + 1;
-        cout << n << endl;
-        while(n--)
-            cout << rand() % 50000 + 1 << ' ';
-        cout << endl;
-    }
+	out;
+	int z = 0, o = 1;
+	if(z || z && o)
+		cout << "ok";
+
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

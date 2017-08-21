@@ -15,9 +15,10 @@
 #include <queue>
 #include <set>
 #include <map>
+#include <iomanip>
 
 #define in freopen("input.in", "r", stdin);
-#define out freopen("input.in", "w", stdout);
+#define out freopen("control.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -48,24 +49,35 @@ template <class T> double getdist(T a, T b){return sqrt((a.x - b.x) * (a.x - b.x
 template <class T> T extract(string s, T ret) {stringstream ss(s); ss >> ret; return ret;}
 template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str();}
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
-struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
+// struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 100010
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
+
+int A[MAX], res[MAX];
+pair<int,int> B[MAX];
 
 int main()
 {
-    out
-    int test = 100;
-    srand(INT_MAX);
-    while(test--)
-    {
-        int n = rand()%50  + 1;
-        cout << n << endl;
-        while(n--)
-            cout << rand() % 50000 + 1 << ' ';
-        cout << endl;
-    }
+	in;
+	int n, i, j; 
+	cin >> n;
+	for(i = 0; i < n; i++)
+		cin >> A[i];
+	for(i = 0; i < n; i++)
+	{
+		cin >> B[i].first;
+		B[i].second = i;
+	}
+	sort(A, A+n);
+	sort(B, B+n);
+	for(i = n-1, j = 0; j < n; j++, i--)
+	{
+		res[B[j].second] = A[i];
+	}
+	for(i = 0; i < n; i++)
+		cout << res[i] << ' ';
+
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 

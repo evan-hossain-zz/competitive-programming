@@ -16,8 +16,8 @@
 #include <set>
 #include <map>
 
-#define in freopen("control.in", "r", stdin);
-#define out freopen("control.out", "w", stdout);
+#define in freopen("input.in", "r", stdin);
+#define out freopen("output.out", "w", stdout);
 #define clr(arr, key) memset(arr, key, sizeof arr)
 #define pb push_back
 #define mp(a, b) make_pair(a, b)
@@ -50,62 +50,46 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 55
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
-string A, B;
-int prefix[MAX], suffix[MAX];
+int dp[MAX][MAX][MAX], n, arr[MAX];
 
-void calculate(int arr[])
+int call(int current, int previous, int previous_of_previous)
 {
-	for(int i = 1, j = 1; i < SZ(A) && j < SZ(B); i++)
-	{
-		if(A[i] == B[j])
-		{
-			arr[j] = i;
-			j++;
-		}
-	}
+	if(current > n) // no more elements to consider
+		return 0;
+	int &ret = dp[current][previous][previous_of_previous];
+	if(ret != -1)
+		return ret;
+	ret = call(current+1, previous, previous_of_previous); // just skip current position
+	if(current - previous_of_previous >= 5 || previous_of_previous == 0) // previous of previous == 0 means we haven't taken 2 elements yet
+		ret = max(ret, call(current+1, current, previous) + arr[current]);
+	return ret;
 }
 
 int main()
 {
-	// cin >> A >> B;
-	A = "abca";
-	B = "accepted";
-	A = "#" + A + "#";
-	B = "#" + B + "#";
+	in;
+	out;
+	while(cin >> n){
+		for(int i = 1; i <= n; i++)
+			cin >> arr[i];
 
-	clr(prefix, 63);
-
-	calculate(prefix);
-	reverse(all(A));
-	reverse(all(B));
-	calculate(suffix);
-
-	set <pair<int,int> > sufset;
-	for(int i = 1; i < SZ(B); i++)
-		sufset.insert(mp(suffix[i], -i));
-	pair <int,int> res = mp(-1, -1);
-	int len = infinity;
-	for(int i = 1; i < SZ(A); i++)
-	{
-		pair<int,int> tem = sufset.lower_bouond(mp(prefix[i], -1));
-		if(tem.first < SZ(B) && )
-		{
-
-		}
+		memset(dp, -1, sizeof dp);
+		cout << call(1, 0, 0) << "\n";
 	}
     return 0;
 }
 // clang++ -std=c++11 -stdlib=libc++ 
 
-
-
-
-
-
-
+/*
+input.in
+9
+1000 2000 1000 5000 9000 5000 3000 4000 1000
+10
+5000 7000 3000 5000 9000 7000 6000 4000 7000 5000
+*/
 
 
 
