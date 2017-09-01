@@ -53,29 +53,19 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 #define MAX 200010
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
-vector <int> adj[MAX], results;
-int dist[MAX];
-
 int main()
 {
-    int low = 1, high = MAX, mid, res = -1, n, m, u, v;
-    cin >> n >> m;
-    while(m--)
+    int res = 0, n, k;
+    map <int,int> mpp;
+    cin >> n >> k;
+    while(n--)
     {
-        cin >> u >> v;
-        adj[u].pb(v);
-        adj[v].pb(u);
+        int x;
+        cin >> x;
+        mpp[x]++;
+        if(mpp[x] == k)
+            res++;
     }
-    while(low <= high)
-    {
-        mid = (low+high)/2;
-        if(ok(mid, n))
-        {
-            high = mid - 1;
-            res = mid;
-        }
-        else
-            low = mid + 1;
-    }
+    cout << res;
     return 0;
 }

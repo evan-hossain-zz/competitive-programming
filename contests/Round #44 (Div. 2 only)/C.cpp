@@ -53,29 +53,47 @@ struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 #define MAX 200010
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
-vector <int> adj[MAX], results;
-int dist[MAX];
+vector <int> adj[MAX];
+int arr[MAX], n, min_time[MAX], max_time[MAX], child[MAX];
+
+int dfs(int node, int level, int par = -1)
+{
+    if(child[node])
+        return child[node];
+    min_time[node] = level;
+    child[node] = 1;
+    for(auto x: adj[node])
+    {
+        if(x != par)
+            child[node] += dfs(x, level+1, node);
+    }
+    max_time[node] = n-child[node];
+    if(max_time[node] < min_time[node])
+        max_time[node] = n-1;
+    return child[node];
+}
 
 int main()
 {
-    int low = 1, high = MAX, mid, res = -1, n, m, u, v;
+    int m, i, u, v;
     cin >> n >> m;
+    for(i = 0; i < n; i++)
+        cin >> arr[i];
     while(m--)
     {
         cin >> u >> v;
         adj[u].pb(v);
         adj[v].pb(u);
     }
-    while(low <= high)
+    dfs(1, 0);
+    for(i = 1; i < n; i++)
     {
-        mid = (low+high)/2;
-        if(ok(mid, n))
-        {
-            high = mid - 1;
-            res = mid;
-        }
-        else
-            low = mid + 1;
+        cout << i << ' ' << min_time[arr[i]] << ' ' << max_time[arr[i]] << endl;
+        if(i >= min_time[arr[i]] && i <= max_time[arr[i]])
+            continue;
+        cout << "0";
+        return 0;
     }
+    cout << 1;
     return 0;
 }

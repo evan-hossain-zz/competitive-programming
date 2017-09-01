@@ -50,32 +50,60 @@ template <class T> string tostring(T n) {stringstream ss; ss << n; return ss.str
 //LL bigmod(LL B,LL P,LL M){LL R=1; while(P>0)  {if(P%2==1){R=(R*B)%M;}P/=2;B=(B*B)%M;} return R;}
 struct fast{fast(){ios_base::sync_with_stdio(0);cin.tie(0);}}cincout;
 
-#define MAX 200010
+#define MAX 100005
 /***********************************THE GRASS IS ALWAYS GREENER ON THE OTHER SIDE***********************************/
 
-vector <int> adj[MAX], results;
-int dist[MAX];
-
+struct node{
+    int x_max, x_min, y_max, y_min;
+}area[MAX];
+int cnt[MAX];
 int main()
 {
-    int low = 1, high = MAX, mid, res = -1, n, m, u, v;
+    int n, m, i, j, x;
     cin >> n >> m;
-    while(m--)
-    {
-        cin >> u >> v;
-        adj[u].pb(v);
-        adj[v].pb(u);
-    }
-    while(low <= high)
-    {
-        mid = (low+high)/2;
-        if(ok(mid, n))
+    clr(area, -1);
+    for(i = 0; i < n; i++)
+        for(j = 0; j < m; j++)
         {
-            high = mid - 1;
-            res = mid;
+            cin >> x;
+            cnt[x]++;
+            if(area[x].x_min == -1)
+                area[x].x_min = i;
+            else
+                area[x].x_min = min(area[x].x_min, i);
+
+
+            if(area[x].y_min == -1)
+                area[x].y_min = j;
+            else
+                area[x].y_min = min(area[x].y_min, j);
+
+
+            if(area[x].x_max == -1)
+                area[x].x_max = i;
+            else
+                area[x].x_max = max(area[x].x_max, i);
+
+            if(area[x].y_max == -1)
+                area[x].y_max = j;
+            else
+                area[x].y_max = max(area[x].y_max, j);
         }
+    for(i = 0; i < MAX; i++)
+    {
+        if(cnt[i] == 0)
+            continue;
+        LL expected_area = 1LL*(area[i].x_max-area[i].x_min+1)*(area[i].y_max-area[i].y_min+1);
+        // cout << "here " << i << ' ' << expected_area << ' ' << cnt[i] << endl;
+        // cout << area[i].x_min << ' ' << area[i].x_max << ' ' << area[i].y_min << ' ' << area[i].y_max << endl;
+        if((area[i].x_max - area[i].x_min == area[i].y_max - area[i].y_min) && expected_area == cnt[i])
+            continue;
         else
-            low = mid + 1;
+        {
+            cout << 0 << "\n";
+            return 0;
+        }
     }
+    cout << 1;
     return 0;
 }
