@@ -20,7 +20,7 @@ int find_set(int node)
     if(par[node] == node)
         return node;
     return par[node] = find_set(par[node]);
-}
+}\
 
 int mst(int n)
 {
