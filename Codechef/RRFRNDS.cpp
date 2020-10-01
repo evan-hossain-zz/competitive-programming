@@ -1,24 +1,4 @@
-#include <vector>
-#include <list>
-#include <map>
-#include <set>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <bitset>
-#include <algorithm>
-#include <functional>
-#include <numeric>
-#include <utility>
-#include <sstream>
-#include <iostream>
-#include <iomanip>
-#include <cstdio>
-#include <cmath>
-#include <cstdlib>
-#include <ctime>
-#include <cstring>
-#include <assert.h>
+#include<bits/stdc++.h>
 
 #define in freopen("input.txt", "r", stdin);
 #define out freopen("output.txt", "w", stdout);
